@@ -1,0 +1,30 @@
+.todo {
+  padding: 20px 10px;
+  background-color: rgb(190, 190, 190);
+  height: 600px;
+}
+
+.todo__item {
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(255, 177, 216);
+  cursor: pointer;
+}
+
+.todo__item-task {
+  padding: 5px 10px;
+  border-radius: 5px;
+  flex-grow: 1;
+  background-color: rgb(184, 118, 151);
+}
+
+.grey {
+  background-color: gray;
+}
+
+
